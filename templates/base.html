@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename ='css/style.css')}}">
+    <link rel="icon" href="{{ url_for('static',filename ='img/icon.svg')}}">
+    <title>Pokemon {% block title %} {% endblock %}</title>
+<body>
+  <header>
+    <a href="{{ url_for('index') }}"><img src="{{ url_for('static',filename ='img/pokemon-23.svg')}}" alt="Logo de la página"></a>
+</header>
+
+<main>
+{% block content %}
+
+{% endblock %}
+</main>
+   
+    
+<footer>
+  <p>&copy; 2024 Nombre del Creador. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>

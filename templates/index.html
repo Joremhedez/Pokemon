@@ -1,0 +1,19 @@
+<!--Importamos la base-->
+{% extends "base.html" %}
+
+
+<!--Contenido de la página-->
+{% block content %}
+<form method="post">
+{{ formulario.hidden_tag() }} <!--Se llama la clave secreta-->
+<label for="">Ingresa el nombre del pokemon</label>
+    {{ formulario.nombre (class = "input_text") }}
+<div class="botones">
+    {{ formulario.enviar(class="button") }}
+</div>
+    
+
+</form>
+
+
+{% endblock %}

@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    max-width: 300px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-tabla {
+    max-width: 100%;
+    height: 250px;
+    margin: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para el formulario */
+form {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.input_text {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botones .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.botones .button:hover {
+    background-color: #555;
+}
+
+/*CSS mensajes*/
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    font-size: 24px;
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.retry-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.retry-link:hover {
+    background-color: #0056b3;
+}
+
+/*Piecera*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
